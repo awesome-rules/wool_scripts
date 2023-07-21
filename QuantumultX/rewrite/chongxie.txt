@@ -5,7 +5,7 @@
 #!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/naisi-01.gif
 #!raw-url=https://github.com/fmz200/wool_scripts/raw/main/QuantumultX/rewrite/chongxie.txt
 #!tg-group=https://t.me/lanjieguanggao
-#!update-time=2023.07.20 22:23
+#!update-time=2023.07.21 21:23
 #!support=约482款app
 #############################################
 # "reject"        策略返回 HTTP 状态码 404,不附带任何额外内容
@@ -408,6 +408,8 @@ https://beta-api.crunchyroll.com/cms url response-body offset_ms":\d+ response-b
 ^https?://ssp\.dzh\.com\.cn/v2api/adgroupjson url reject
 
 # > 大众点评
+# 开屏广告
+^https:\/\/img\.meituan\.net\/dpmobile\/.+93241\.png url reject-dict
 ^https?:\/\/img\.meituan\.net\/dpmobile\/.*.(gif|jpg) url reject-200
 
 # > 动卡空间
