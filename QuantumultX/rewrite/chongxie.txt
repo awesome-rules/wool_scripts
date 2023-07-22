@@ -5,7 +5,7 @@
 #!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/naisi-01.gif
 #!raw-url=https://github.com/fmz200/wool_scripts/raw/main/QuantumultX/rewrite/chongxie.txt
 #!tg-group=https://t.me/lanjieguanggao
-#!update-time=2023.07.22 15:23
+#!update-time=2023.07.22 18:50
 #!support=约482款app
 #############################################
 # "reject"        策略返回 HTTP 状态码 404,不附带任何额外内容
@@ -1374,6 +1374,9 @@ https://access.mypikpak.com/access_controller/v1/area_accessible url reject
 
 
 # >>>>>>>>>>>>>>> ✅ R ✅ <<<<<<<<<<<<<<
+# Reddit 过滤推广, 关 subreddit 的 NSFW 提示
+^https?:\/\/gql\.reddit\.com url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/reddit.js
+
 # > 人民日报
 ^https:\/\/app\.peopleapp\.com\/Api\/\d+/HomeApi\/(adv|getAdvertImage) url reject
 ^https?:\/\/stat\.peopleapp\.com\/ url reject
