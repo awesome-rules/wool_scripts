@@ -5,7 +5,7 @@
 #!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/naisi-01.gif
 #!raw-url=https://github.com/fmz200/wool_scripts/raw/main/QuantumultX/rewrite/chongxie.txt
 #!tg-group=https://t.me/lanjieguanggao
-#!update-time=2023.07.21 21:23
+#!update-time=2023.07.22 15:23
 #!support=约482款app
 #############################################
 # "reject"        策略返回 HTTP 状态码 404,不附带任何额外内容
@@ -170,8 +170,9 @@ https?:\/\/.+\.iqiyipic\.com\/image\/20*_100000 url reject
 ^https?:\/\/aimg\.babytreeimg\.com\/group1\/M00\/*\/*\/.*.jpg url reject-200
 # 开屏广告 @alist.choc.ga分享
 ^https?:\/\/plough\.babytree\.com\/plough\.do url reject-200
-# 弹窗广告 #感谢 Ron 分享
+# 弹窗广告 #感谢Ron分享
 ^http:\/\/mapiweb\.babytree\.com\/newapi\/luban\/behavior\/receive url reject-200
+^http:\/\/go\.babytree\.com\/go_pregnancy\/api\/index_activity\/get_app_index_activity url reject-200
 
 # > 北京银行
 ^https?:\/\/cdnmobibank\.bankofbeijing\.com\.cn\/cdn\/MarketingCloud\/.+\/.+\/99_1\/.+\.jpg url reject-200
@@ -1535,6 +1536,7 @@ https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryInfoFlow url scri
 
 # > 顺丰速运小程序
 ^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/info-flow\/reconsitution-list url reject-200
+^https?:\/\/ucmp\.sf-express\.com\/proxy\/operation-platform\/info-flow-adver\/query$ url reject-200
 
 # > 少数派
 https://ios.sspai.com/api/v3/recommend/page/get\?ad.*ios_home_modal url reject
