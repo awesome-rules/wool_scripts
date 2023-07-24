@@ -5,7 +5,7 @@
 #!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/NaiSi_01.png
 #!raw-url=https://github.com/fmz200/wool_scripts/raw/main/QuantumultX/filter/fenliu.list
 #!tg-group：https://t.me/lanjieguanggao
-#!update：2023.07.03 21:36
+#!update：2023.07.24 21:36
 #!support：约9373行
 #!proxy-select：reject
 #############################################
@@ -407,6 +407,10 @@ HOST,optimus-ads.amap.com.w.alikunlun.com, reject
 HOST-SUFFIX, shouji.sougou.com, reject
 HOST, u51.me, reject
 HOST-SUFFIX, u51.me, reject
+
+# > 广州地铁乘车码
+# 多个广告 感谢CtrlMusic🐓分享
+host, apis.alenable.com, reject
 
 
 
