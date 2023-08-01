@@ -5,7 +5,7 @@
 #!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/naisi-01.gif
 #!raw-url=https://github.com/fmz200/wool_scripts/raw/main/QuantumultX/rewrite/chongxie.txt
 #!tg-group=https://t.me/lanjieguanggao
-#!update-time=2023.07.27 20:05
+#!update-time=2023.08.01 20:40
 #!support=约482款app
 #############################################
 # "reject"        策略返回 HTTP 状态码 404,不附带任何额外内容
@@ -613,6 +613,9 @@ https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNot
 ^https?:\/\/l[0-9]{1}\.51fanli\.net\/app\/images\/splash\/2022\/1[0-2]{1}\/.*.jpg url reject-200
 ^https?:\/\/l[0-9]{1}\.51fanli\.net\/app\/images\/splash\/202\d{1}\/\d{2}\/.*.jpg url reject-200
 
+# > 发现精彩
+# 开屏广告
+^https?:\/\/static\.95508\.com\/mmg\/images\/ads\/.+\/(.+1125?.+2436|.+60176|.+MGM_qx) url reject-200
 
 
 
@@ -633,8 +636,6 @@ https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNot
 ^https?:\/\/static\.95508\.com\/icppweb\/images\/modelMaterial\/accurate\/202\d{5}\/.*.(png|jpg) url reject-200
 ^https?:\/\/static\.95508\.com\/icppweb\/images\/modelMaterial\/advertising\/202\d{5}\/.*.(png|jpg) url reject-200
 ^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d{25}\.(png|jpg) url reject-img
-# > 发现精彩
-^https?:\/\/static\.95508\.com\/mmg\/images\/ads\/.+\/(.+1125.+2436|.+60176) url reject-200
 
 # > 广州农商银行
 ^https?:\/\/mbank\.grcbank\.com\/ydyh\/resources\/startpage\/.*.(jpg|png) url reject-200
@@ -2320,7 +2321,7 @@ https://new-app-api.ylyk.com/v1/user/myinfo/adviser url reject
 # > 中信银行
 ^https?:\/\/wap.bank\.ecitic\.com:6443\/NMBFOServer\/cbframework\.do\?act=CUBEPAGEDATA url reject-200
 # 开屏广告
-^https:\/\/imcs\.citicbank\.com\/cloud\/.+1125.+2436 url reject-200
+^https:\/\/imcs\.citicbank\.com\/cloud\/.+(1125.+2436|1242.+2688) url reject-200
 
 # > 中国移动
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit url reject-200

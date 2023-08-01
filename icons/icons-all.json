@@ -627,6 +627,10 @@
       "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/shadowrocket.png"
     },
     {
+      "name": "shadowrocket-01",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/shadowrocket-01.png"
+    },
+    {
       "name": "Surge",
       "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Surge.png"
     },
@@ -851,10 +855,6 @@
       "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/CaoXiaoMan.png"
     },
     {
-      "name": "DouDou",
-      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/DouDou.png"
-    },
-    {
       "name": "KeLi",
       "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/KeLi.png"
     },
@@ -877,6 +877,14 @@
     {
       "name": "Walalala",
       "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/Walalala.png"
+    },
+    {
+      "name": "YiNanan77",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/YiNanan77.png"
+    },
+    {
+      "name": "ZenMoFeiShi",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/ZenMoFeiShi.png"
     },
     {
       "name": "zhangjun",
