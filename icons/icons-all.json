@@ -751,6 +751,22 @@
       "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/twitter.png"
     },
     {
+      "name": "twitter",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/lige47/twitter.png"
+    },
+    {
+      "name": "twitter(1)",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/lige47/twitter(1).png"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/erdongchanyo/Twitter.png"
+    },
+    {
+      "name": "X",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/X.png"
+    },
+    {
       "name": "Udn",
       "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Udn.png"
     },
@@ -1273,14 +1289,6 @@
     {
       "name": "speedtest",
       "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/lige47/speedtest.png"
-    },
-    {
-      "name": "twitter",
-      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/lige47/twitter.png"
-    },
-    {
-      "name": "twitter(1)",
-      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/lige47/twitter(1).png"
     },
     {
       "name": "google",
@@ -5685,10 +5693,6 @@
     {
       "name": "Telegram",
       "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/erdongchanyo/Telegram.png"
-    },
-    {
-      "name": "Twitter",
-      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/erdongchanyo/Twitter.png"
     },
     {
       "name": "Whatsapp",
