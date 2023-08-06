@@ -4,7 +4,7 @@
   "icons": [
     {
       "name": "naisi-01",
-      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/naisi-01.gif"
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/gif/naisi-01.gif"
     },
     {
       "name": "brd",
@@ -795,6 +795,10 @@
       "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/wechat.png"
     },
     {
+      "name": "wechat",
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/chxm1023/wechat.png"
+    },
+    {
       "name": "WeiboTalk",
       "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/WeiboTalk.png"
     },
@@ -1233,10 +1237,6 @@
     {
       "name": "baidu",
       "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/chxm1023/baidu.png"
-    },
-    {
-      "name": "wechat",
-      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/chxm1023/wechat.png"
     },
     {
       "name": "zhihu",
