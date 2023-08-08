@@ -5,7 +5,7 @@
 #!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/gif/naisi-01.gif
 #!raw-url=https://github.com/fmz200/wool_scripts/raw/main/QuantumultX/rewrite/chongxie.txt
 #!tg-group=https://t.me/lanjieguanggao
-#!update-time=2023.08.07 20:50
+#!update-time=2023.08.08 21:50
 #!support=约482款app
 #############################################
 # "reject"        策略返回 HTTP 状态码 404,不附带任何额外内容
@@ -1864,7 +1864,7 @@ http:\/\/analytics\.163\.com\/ntes url reject
 # 翻译广告
 ^https:\/\/dict\.youdao\.com\/course\/tab\/translateTab url reject-dict
 # 听读训练
-^https:\/\/dict\.youdao\.com\/homepage\/tile url reject-dict
+;^https:\/\/dict\.youdao\.com\/homepage\/tile url reject-dict
 # 首次查词弹窗
 ^https:\/\/api-overmind\.youdao\.com\/openapi\/get\/luna\/dict\/dict-mobile\/prod\/dictCommonConfig url reject-dict
 # 首页弹窗
