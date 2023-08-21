@@ -1,11 +1,7 @@
 //*********************************
-// 配置参数：corn */5 * * * * * fmz_own/auto_join_tf_ql.js, tag=自动加入TestFlight
+// */5 * * * * * fmz_own/Auto_join_TF_QL.js, tag=自动加入TestFlight
 // 环境变量：TF_APP_ID，TF_KEY，session_id，session_digest，request_id
-// 参考脚本：
-// https://github.com/DecoAri/JavaScript/blob/main/Surge/Auto_join_TF.js
-// https://github.com/chouchoui/QuanX/blob/master/Scripts/testflight/Auto_join_TF.js
 //*********************************
-
 
 let apps = process.env.TF_APP_ID;
 let Key = process.env.TF_KEY;
@@ -14,7 +10,7 @@ let session_digest = process.env.session_digest;
 let request_id = process.env.request_id;
 
 // 调用异步方法处理集合中的元素
-processCollection().then(r => console.log('自动加入TestFlight结束...'));
+processCollection().then(r => console.log('结束...'));
 
 async function processCollection() {
 
@@ -51,8 +47,8 @@ async function autoPost(ID) {
   };
 
   console.log(ID + " 参数拼装完成...");
-  console.log(ID + " 请求URL = " + url);
-  console.log(ID + " 请求头 = " + JSON.stringify(headers));
+  // console.log(ID + " 请求URL = " + url);
+  // console.log(ID + " 请求头 = " + JSON.stringify(headers));
 
   // 发送请求并获取响应的body
   try {
@@ -60,7 +56,9 @@ async function autoPost(ID) {
       method: "GET",
       headers: headers
     });
+    console.log(ID + " 开始发送请求...");
     const body = await response.text();
+    console.log(ID + " 收到响应内容...");
     // console.log(`${ID} 的响应body：`, body);
     if (body.status == 404) {
       console.log(ID + " 不存在该TF");
@@ -86,3 +84,4 @@ async function autoPost(ID) {
     console.error(`处理元素 ${ID} 时出错:`, error);
   }
 }
+
