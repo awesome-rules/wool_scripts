@@ -51,7 +51,9 @@ async function processCollection() {
   }
 
   // 发送通知
-  notify.sendNotify('自动加入TestFlight', notifyStr);
+  if (sendNotify) {
+    notify.sendNotify('自动加入TestFlight', notifyStr);
+  }
   return '自动加入TestFlight' + '\n\n' + notifyStr;
 }
 
