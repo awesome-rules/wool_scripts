@@ -8,6 +8,7 @@
  * https://github.com/chouchoui/QuanX/blob/master/Scripts/testflight/Auto_join_TF.js
  */
 
+const $ = new Env('自动加入TestFlight');
 const notify = $.isNode() ? require('./sendNotify') : '';
 // 通知封装字符串
 let notifyStr = addLog("[自动加入TestFlight]\n");
