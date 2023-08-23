@@ -53,6 +53,8 @@ async function processCollection() {
   // 发送通知
   if (sendNotify) {
     notify.sendNotify('自动加入TestFlight', notifyStr);
+  } else {
+    console.log("不发送通知");
   }
   return '自动加入TestFlight' + '\n\n' + notifyStr;
 }
